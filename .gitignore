@@ -1,0 +1,21 @@
+**/__pycache__
+
+env
+
+.env
+
+staticfiles
+
+# TODO: Remove this when appropriate
+# Ignore migrations while the project is seeing rapid changes
+**/migrations
+
+# TODO: Remove this when appropriate
+# Ignore this file while the project is using SQLite
+db.sqlite3
+
+# dummy_data.json, later on DB seeds should be done via the API
+**/*.json
+
+src/core/management/commands/dummy_data_generator.py
+src/core/management/commands/seed2.py

@@ -1,0 +1,10 @@
+**/__pycache__
+
+env
+
+.env.sample
+.env
+
+# TODO: Remove this when appropriate
+# Ignore this file while the project is using SQLite
+db.sqlite3
