@@ -15,6 +15,7 @@ import os
 
 from backend_main.utils.env_utils import check_env_vars_not_null
 
+ALLOWED_HOSTS = ["*"]
 
 # Load directory structure
 BACKEND_MAIN_DIR = os.path.dirname(__file__)
