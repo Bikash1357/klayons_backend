@@ -15,8 +15,6 @@ import os
 
 from backend_main.utils.env_utils import check_env_vars_not_null
 
-DEBUG = True
-
 ALLOWED_HOSTS = ["*"]
 
 # Load directory structure
